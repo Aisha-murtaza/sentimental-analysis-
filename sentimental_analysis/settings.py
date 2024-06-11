@@ -142,7 +142,7 @@ DATABASES = {
     }
 }
 import dj_database_url
-DATABASES['default']=dj_database_url.parse("postgres://softbit_website_builder_user:3VDjfTDbBIRugdeFbuS8tfrqOPKZOBsV@dpg-coe3j3gl6cac73btd8q0-a.oregon-postgres.render.com/softbit_website_builder")
+#DATABASES['default']=dj_database_url.parse("postgres://softbit_website_builder_user:3VDjfTDbBIRugdeFbuS8tfrqOPKZOBsV@dpg-coe3j3gl6cac73btd8q0-a.oregon-postgres.render.com/softbit_website_builder")
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators

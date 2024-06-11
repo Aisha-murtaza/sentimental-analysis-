@@ -2,6 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
 from datetime import timedelta
+
+#each model represented by class and each model has no of class variables 
 class User_Result(models.Model):
     user=models.ForeignKey(User,on_delete=models.CASCADE,related_name='User_Result',blank=True)
     user_text=models.CharField(null=True,max_length=2000)

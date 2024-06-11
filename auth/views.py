@@ -22,7 +22,7 @@ def signup(request):
             email_subject="Activate Your Account"
             message=render_to_string('activate.html',{
             'user':user,
-            'domain':'https://sentimentalanalysis-uhvm.onrender.com',            #https://sentimentalanalysis-uhvm.onrender.com
+            'domain':'http://127.0.0.1:8000',            
             'uid':urlsafe_base64_encode(force_bytes(user.pk)),
             'token':generate_token.make_token(user)
 
